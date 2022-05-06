@@ -1,0 +1,22 @@
+Sprint 1
+- Gestion de projecto
+	-Hack n plan
+- Design Document
+	-Requisitos VFX 1
+	-Requisitos VFX 2
+- Repositorio
+	-Github
+	-Unity
+
+Sprint 2
+-Staging
+	-prefabs
+	-2D sprites
+	-3D models
+	-Enviroment
+
+Sprint 3
+-Particulas
+-Shaders
+-Materiales
+
