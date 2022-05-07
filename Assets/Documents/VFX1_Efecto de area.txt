@@ -1,0 +1,3 @@
+Durante la invocacion en las magos del mago aparecen dos nucleos de carga durante dos segundos, 
+desaparecen cuando envia la invocacion y aparecen picos del suelo que van  aumentando de tamano
+mientras se alejan del invocador durante 4 segundos, acompanados por una estela de vapor y particulas
