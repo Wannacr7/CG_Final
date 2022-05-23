@@ -5,8 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     [SerializeField] private Animator modelAnim;
-    [SerializeField] private ParticleSystem parSys;
-    [SerializeField] private ParticleSystem parSys2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +25,6 @@ public class GameController : MonoBehaviour
     public void startVFX()
     {
         Debug.Log("Start VFX");
-        parSys.Play();
+
     }
 }
