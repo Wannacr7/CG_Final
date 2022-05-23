@@ -6,6 +6,7 @@ public class CoreController : MonoBehaviour
 {
     [SerializeField] GameObject[] hands;
     [SerializeField] GameObject[] cores;
+    [SerializeField] ParticleSystem[] trails;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +26,20 @@ public class CoreController : MonoBehaviour
         {
             core.SetActive(true);
         }
+        foreach (var part in trails)
+        {
+            part.Play();
+        }
     }
     public void StopCore()
     {
         foreach (var core in cores)
         {
             core.SetActive(false);
+        }
+        foreach (var part in trails)
+        {
+            part.Pause();
         }
     }
 }
